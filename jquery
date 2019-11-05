@@ -23,7 +23,7 @@
 		var containerIDhash = '#' + settings.containerID;
 		var containerHoverIDHash = '#'+settings.containerHoverID;
 		
-		$('body').append('<a href="#" id="'+settings.containerID+'">'+ "<div id='totop_image'><img src='https://static.tumblr.com/qrn3nrs/8K2q0hksy/hippi_bus_bouton.gif'{
+		$('body').append('<a href="#" id="'+settings.containerID+'">'+ "<div id='totop_image'><img src='https://static.tumblr.com/qrn3nrs/8K2q0hksy/hippi_bus_bouton.gif'> {
 			$('html, body').animate({scrollTop:0}, settings.scrollSpeed, settings.easingType);
 			$('#'+settings.containerHoverID, this).stop().animate({'opacity': 0 }, settings.inDelay, settings.easingType);
 			return false;
